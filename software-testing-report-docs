@@ -1,0 +1,122 @@
+Functional Test Report
+
+Application Name: Scandium Web App
+Testing Type: Functional Testing
+Audience: Client-Facing
+Test Cycle: Release 1.0
+Prepared By: Zay Zay
+Test Date: December 2025
+
+1. Executive Summary
+
+This report documents the results of functional testing conducted on the Scandium Web App, a client-facing web application. The objective of this testing was to verify that all key functionalities operate as per business and functional requirements and that the application is stable and ready for client use.
+
+Testing was completed successfully with major functionalities working as expected. A small number of minor defects were identified and logged, none of which block production release.
+
+2. Test Objectives
+
+The primary objectives of functional testing were to:
+
+Validate core application features against functional requirements
+
+Ensure correct user interactions and workflows
+
+Verify data accuracy and system responses
+
+Identify functional defects before production deployment
+
+Confirm readiness for client-facing usage
+
+3. Test Scope
+In Scope
+
+User registration and login
+
+Dashboard access and navigation
+
+Data input forms and validation
+
+Logout and session handling
+
+Error messages and system notifications
+
+Out of Scope
+
+Performance testing
+
+Security / penetration testing
+
+Compatibility testing on unsupported browsers
+
+Backend database validation beyond UI confirmation
+
+4. Test Environment
+
+Component	Details
+Application URL	Scandium Web App (Staging)
+Environment	Staging
+Browser(s)	Chrome, Firefox
+Operating System	Windows 11, Linux
+Testing Type	Manual Functional Testing
+
+5. Test Approach
+
+Test cases were designed based on functional requirements
+
+Manual testing was performed using positive and negative test scenarios
+
+Defects were documented with steps to reproduce and expected vs actual results
+
+Retesting was conducted for fixed issues where applicable
+
+6. Test Execution Summary
+
+Metric	Count
+Total Test Cases	45
+Passed	39
+Failed	4
+Blocked	NA
+Not Executed	0
+
+7. Defect Summary
+Severity	Count
+Critical	0
+High	0
+Medium	2
+Low	2
+Notable Issues
+
+High: 
+
+Medium: Incorrect validation message displayed for empty mandatory fields
+
+Low: UI alignment issue on dashboard widgets
+
+All identified defects have been logged and communicated to the development team. (simulation purpose)
+
+8. Risk Assessment
+
+Minor UI issues may impact user experience but not functionality
+
+No data loss or security-related risks identified during functional testing
+
+9. Recommendations
+
+Fix and retest the identified  defect
+
+Conduct UAT with real client scenarios
+
+Perform regression testing after defect fixes
+
+Plan security testing prior to production deployment
+
+
+10. Test Conclusion & Sign-Off
+
+
+Based on the results of functional testing, the Scandium Web App is conditionally approved for release, pending resolution of high and medium severity defects.
+
+Once fixes are verified, the application will be ready for client-facing production use.
+
+Test Lead Approval: ____________________
+Date: ____________________
